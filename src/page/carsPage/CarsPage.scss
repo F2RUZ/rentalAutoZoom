@@ -1,0 +1,160 @@
+main{
+    .cars{
+        background-color: #1e1f27;
+        display: flex;
+        gap: 20px;
+        position: relative;
+        .filter-menu-button{
+            width: 50px;
+            height: 50px;
+            background-color: #272933;
+            position: absolute;
+            z-index: 99999;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            top: 25px;
+            display: none;
+        }
+        .filter{
+            background: #272933;
+            padding: 60px 0;
+            width: 600px;
+            position: relative;
+            .filter-menu-close-button{
+                width: 50px;
+                height: 50px;
+                background-color: #1e1f27;
+                position: absolute;
+                z-index: 999999;
+                cursor: pointer;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                top: 25px;
+                display: none;
+            }
+            .filter-container{
+                margin: 0 auto;
+                max-width: 450px;
+                padding: 20px 25px;
+                color: #fff;
+                .filter-title{
+                    font-size: 28px;
+                    letter-spacing: 1.6px;
+                    margin-bottom: 20px;
+                }
+                .filter-part-car{
+                    .filter-to-offer{
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 35px;
+                        width: 100%;
+                        .part-title{
+                            font-size: 22px;
+                            font-weight: 300;
+                            margin-bottom: 25px;
+                        }
+                        .filter-labels{
+                            align-items: center;
+                            color: #fff;
+                            cursor: pointer;
+                            display: flex;
+                            font-size: 18px;
+                            gap: 15px;
+                            margin-bottom: 14px;
+                            max-width: 360px;
+                        }
+                        .filter-to-select{
+                            border: 1.5px solid #c4c4c4;
+                            border-radius: 7px;
+                            color: #000;
+                            outline: none;
+                            padding: 15px 25px;
+                        }
+                    }
+                    .filter-buttons{
+                        align-items: center;
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        button{
+                            border: 1.3px solid #fff;
+                            border-radius: 10px;
+                            color: #fff;
+                            cursor: pointer;
+                            font-size: 19px;
+                            letter-spacing: 2px;
+                            outline: none;
+                            padding: 20px 40px;
+                        }
+                        .reset-button{
+                            background: transparent;
+                        }
+                        .apply-button{
+                            background-color: #009a00;
+                            border: 1.3px solid #009a00;
+                        }
+                    }
+                }
+            }
+        }
+        .filter-cars{
+            width: 100%;
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    main{
+        .cars{
+            gap: 0;
+            .filter-menu-button{
+                display: flex;
+            }
+            
+            .filter-menu-button-active{
+                display: none;
+            }
+            .filter{
+                display: none;
+                width: 100%;
+                .filter-menu-close-button{
+                    display: flex;
+                }
+                .filter-container{
+                    margin: 0 10px;
+                    max-width: 100%;
+                }
+            }
+            .filter-active{
+                display: block;
+            }
+            .active-filter-cars{
+                width: 0;
+                height: 0;
+                
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    main{
+        .cars{
+            .filter{
+                .filter-container{
+                    .filter-part-car{
+                        .filter-buttons{
+                            button{
+                                padding: 15px 15px;
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}

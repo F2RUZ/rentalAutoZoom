@@ -1,0 +1,131 @@
+.contact {
+  background-color: #1f1e27;
+  padding: 100px 0;
+
+  &-links {
+    color: rgb(171, 175, 175);
+    font-size: 0.9rem;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  &-title {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  &-text {
+    color: darkgray;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  &-subtitle {
+    color: whitesmoke;
+    font-weight: 700;
+  }
+
+  &-media {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &-location {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &-location span {
+    color: whitesmoke;
+    font-size: 1.2rem;
+  }
+
+  &-hr {
+    border: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+  }
+}
+
+// Max width 1150px
+@media only screen and (max-width: 1150px) {
+  .contact {
+    padding: 80px 0;
+
+    &-title {
+      font-size: 1.8rem;
+    }
+
+    &-text {
+      font-size: 1.1rem;
+    }
+
+    &-location span {
+      font-size: 1.1rem;
+    }
+
+    &-content,
+    &-media,
+    &-location {
+      text-align: center;
+    }
+  }
+}
+
+// Max width 800px
+@media only screen and (max-width: 800px) {
+  .contact {
+    padding: 60px 0;
+
+    &-title {
+      font-size: 1.6rem;
+    }
+
+    &-text {
+      font-size: 1rem;
+    }
+
+    &-location span {
+      font-size: 1rem;
+    }
+
+    &-content,
+    &-media,
+    &-location {
+      text-align: center;
+    }
+  }
+}
+
+// Max width 400px
+@media only screen and (max-width: 400px) {
+  .contact {
+    padding: 40px 0;
+    background-color: #3a3a47; /* Orqa fon rangi o'zgartirildi */
+
+    &-title {
+      font-size: 1.4rem;
+    }
+
+    &-text {
+      font-size: 0.9rem;
+    }
+
+    &-location span {
+      font-size: 0.9rem;
+    }
+
+    &-content,
+    &-media,
+    &-location {
+      text-align: center;
+    }
+  }
+}

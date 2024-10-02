@@ -1,0 +1,46 @@
+// .faq-wrapper {
+// 	background-color: #1e1f27;
+// 	color: white;
+// }
+// .faqInfo{
+//     // background-color: #111219;
+//     margin-top: 70px;
+
+//     .faq-title{
+//         font-size: 32px;
+//        margin-bottom: 20px;
+//     }
+// }
+
+.faq-wrapper {
+	background-color: #1e1f27;
+	color: white;
+	padding: 20px; // Added padding for better spacing
+
+	@media (max-width: 768px) {
+		padding: 15px;
+	}
+
+	@media (max-width: 480px) {
+		padding: 10px;
+	}
+}
+
+.faqInfo {
+	margin-top: 70px;
+
+	.faq-title {
+		font-size: 32px;
+		margin-bottom: 20px;
+
+		@media (max-width: 768px) {
+			font-size: 28px; // Smaller font size for tablets
+		}
+
+		@media (max-width: 480px) {
+			font-size: 24px; // Even smaller font size for mobile
+		}
+	}
+
+	// Additional responsive styles for FAQ items could be added here
+}

@@ -1,0 +1,105 @@
+//  .youtube-bottom {
+//      	display: flex;
+//      	gap: 10px;
+//      	 background-color: #272933;
+//      	color: white;
+//      	width: 100%;
+//      	.img {
+//      		 width: 50%;
+//      	}
+//      	&-info{
+//      		width: 50%;
+//      		padding: 10px 50px;
+//      		background-color: #272933;
+//             h2{
+//      		font-size: 40px;
+//      		max-width: 515px;
+//      		width: 100%;
+//      	   }
+//      	   p{
+//      		font-size: 19px;
+//      		margin: 20px 0;
+//      	   }
+//      	}
+//      }
+
+.youtube-bottom {
+	display: flex;
+	flex-direction: column; // Mobil qurilmalar uchun ustunlik
+	gap: 10px;
+	background-color: #272933;
+	color: white;
+	width: 100%;
+	padding: 10px; // Mobil ekranlar uchun chekkalar
+
+	.img {
+		width: 100%; // Rasmni to‘liq kenglikka kengaytirish
+		height: auto; // Nisbatni saqlash
+	}
+
+	&-info {
+		text-align: center;
+		width: 100%; // Mobil ekranlar uchun to‘liq kenglik
+		padding: 10px; // Mobil qurilmalar uchun chekkalar
+		background-color: #272933;
+
+		h2 {
+			font-size: 1.5em; // Mobil qurilmalar uchun mos o‘lcham
+			margin: 0 0 10px 0; // Marginlarni moslashtirish
+		}
+
+		p {
+			font-size: 1em; // Mobil qurilmalar uchun mos o‘lcham
+			margin: 0; // Marginlarni moslashtirish
+		}
+		.youtube-link {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-top: 10px;
+			span {
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+// Katta ekranlar uchun moslashuv
+@media (min-width: 768px) {
+	.youtube-bottom {
+		flex-direction: row; // Katta ekranlarda yonma-yon
+
+		.img {
+			width: 50%; // Katta ekranlarda rasm kengligi
+		}
+
+		&-info {
+			width: 50%;
+			padding: 20px; // Katta ekranlar uchun chekkalar
+
+			h2 {
+				font-size: 2em; // Katta ekranlar uchun kattaroq sarlavha
+			}
+
+			p {
+				font-size: 1.2em; // Katta ekranlar uchun kattaroq matn
+				margin: 10px 0; // Marginlarni moslashtirish
+			}
+		}
+	}
+}
+
+// Juda katta ekranlar uchun moslashuv
+@media (min-width: 1200px) {
+	.youtube-bottom {
+		&-info {
+			h2 {
+				font-size: 2.5em; // Juda katta ekranlar uchun sarlavha o‘lchami
+			}
+
+			p {
+				font-size: 1.4em; // Juda katta ekranlar uchun matn o‘lchami
+			}
+		}
+	}
+}

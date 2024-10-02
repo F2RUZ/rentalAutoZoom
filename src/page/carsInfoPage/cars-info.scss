@@ -1,0 +1,346 @@
+.cars-info {
+  background-color: #191f23;
+
+  &-content {
+    margin: 50px 0;
+  }
+  &-title {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+  &-top {
+    display: flex;
+    align-items: start;
+    gap: 50px;
+  }
+  &-aedText {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &-aedText span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: grey;
+  }
+  &-perDay {
+    color: rgb(125, 121, 121);
+    font-weight: 900;
+    margin: 10px 0;
+  }
+  &-price {
+    color: white;
+    text-decoration: line-through;
+    font-size: 1.2rem;
+  }
+  &__deposit {
+    color: grey;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+  &__aed {
+    font-size: 1.3rem;
+    color: white;
+  }
+  &__paymet {
+    color: grey;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+  &-left {
+    width: 60%;
+    height: 400px;
+
+    &-box {
+      display: flex;
+      gap: 20px;
+    }
+    &-images {
+      border: 2px solid grey;
+    }
+  }
+
+  &-right {
+    width: 50%;
+
+    &-top {
+      display: flex;
+      gap: 50px;
+    }
+  }
+
+  &-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid;
+    padding-top: 20px;
+  }
+
+  &-buttons {
+    width: 280px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 80px;
+    height: 65px;
+    background-color: greenyellow;
+  }
+  &-links:nth-child(2) {
+    background-color: rgb(56, 101, 228);
+  }
+  &-links:nth-child(3) {
+    background-color: rgb(234, 189, 54);
+  }
+
+  &-bottom {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &-subtitle {
+    font-size: 2rem;
+    color: white;
+    font-weight: 900;
+  }
+  &-subtext {
+    font-size: 0.8rem;
+    color: whitesmoke;
+    font-weight: 900;
+    margin-top: 50px;
+  }
+  &-secondtitle {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+  }
+  &-tourthtitle {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 900;
+  }
+
+  @media (max-width: 1200px) {
+    &-left {
+      width: 100%; // Katta ekranda chap divni to'liq kenglikda ko'rsatish
+    }
+
+    &-right {
+      width: 100%; // Katta ekranda o'ng divni to'liq kenglikda ko'rsatish
+    }
+  }
+
+  @media (max-width: 992px) {
+    &-top {
+      flex-direction: column; // Ekran 992px dan kichik bo'lganda elementlar ustma-ust tushadi
+    }
+
+    &-left,
+    &-right {
+      width: 100%; // Har ikkala qism ham to'liq kenglikni egallaydi
+    }
+  }
+
+  @media (max-width: 768px) {
+    &-title {
+      font-size: 2.5rem; // Kichik ekranda title kattaligini o'zgartirish
+    }
+
+    &-buttons {
+      gap: 20px;
+    }
+
+    &-links {
+      width: 70px;
+      height: 60px; // Kichik ekranda link tugmalarini biroz kichraytirish
+    }
+  }
+
+  @media (max-width: 576px) {
+    &-title {
+      font-size: 2rem; // Eng kichik ekranda title kattaligini yana kichikroq qilish
+    }
+
+    &-aedText {
+      font-size: 1rem; // AedText o'lchamini kichikroq ekran uchun o'zgartirish
+    }
+
+    &-links {
+      width: 60px;
+      height: 55px; // Eng kichik ekranda link tugmalarini yanada kichik qilish
+    }
+  }
+
+  @media (max-width: 1200px) {
+    &-subtitle {
+      font-size: 1.8rem;
+    }
+    &-secondtitle {
+      font-size: 1.3rem;
+    }
+    &-tourthtitle {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (max-width: 992px) {
+    &-bottom {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      gap: 50px;
+    }
+    &-subtext{
+      text-align: center;
+    }
+    &-subtitle {
+      font-size: 1.6rem;
+      text-align: center;
+    }
+    &-secondtitle {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    &-tourthtitle {
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &-subtitle {
+      font-size: 1.4rem;
+    }
+    &-secondtitle {
+      font-size: 1rem;
+    }
+    &-tourthtitle {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    &-bottom {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &-subtitle {
+      font-size: 1.2rem;
+    }
+    &-secondtitle {
+      font-size: 0.9rem;
+    }
+    &-tourthtitle {
+      font-size: 0.8rem;
+    }
+    &-subtext {
+      font-size: 0.7rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    &-subtitle {
+      font-size: 1rem;
+    }
+    &-secondtitle {
+      font-size: 0.8rem;
+    }
+    &-tourthtitle {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+th,
+td {
+  width: 150px;
+  font-size: 1.2rem !important;
+}
+
+td {
+  color: #fff;
+}
+
+th {
+  font-size: 1.5rem !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+  .swiper-slide {
+    .skeleton-image {
+      width: 604px;
+      height: 320px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      object-fit: cover;
+    }
+  }
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  .swiper-slide {
+    width: 25%;
+    height: 100%;
+    img {
+      cursor: pointer;
+    }
+    .skeleton-image-1 {
+      width: 143px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      object-fit: cover;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.hyper {
+  padding: 50px 0;
+  background-color: #272933;
+}
+
+@media only screen and (max-width: 1050px) {
+  .hyper {
+    .budget-title {
+      font-size: 25px;
+    }
+    .budget-link {
+      font-size: 15px;
+    }
+    .budget-bottom {
+      margin-top: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .hyper {
+    .budget-title {
+      font-size: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 588px) {
+  .hyper {
+    .budget-link {
+      font-size: 11px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hyper {
+    .budget-title {
+      font-size: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .hyper {
+    .budget-title {
+      font-size: 16px;
+    }
+  }
+}

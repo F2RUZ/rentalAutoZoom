@@ -1,0 +1,172 @@
+
+
+.serviceInfoPage {
+	background-color: #1e1f27;
+	padding-bottom: 30px;
+
+	.servicePage-card-item {
+		display: flex;
+		flex-wrap: wrap; // Flex elementlarni qatorlarga joylashtirish
+		background-color: rgba(0, 0, 0, 0);
+		justify-content: center; // Bo‘shliqni taqsimlash
+		color: white;
+		gap: 50px; // Defolt bo‘shliq
+
+		&-title {
+			font-size: 32px;
+			font-weight: 700;
+			margin: 70px 0;
+			color: white;
+			width: 100%;
+			text-align: start; // Chap tomonga joylashtirish
+		}
+
+		&-info {
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			background: linear-gradient(
+				62.37deg,
+				#ffffff36 -7.76%,
+				#0000000f 41.78%,
+				#5050500d 102.46%
+			);
+			width: 380px;
+			box-sizing: border-box; // Padding va border hisobga olinadi
+
+			&-img {
+				width: 100%;
+				display: block;
+				border-radius: 8px;
+			}
+
+			&-infor {
+				padding: 10px 30px;
+
+				&-counts {
+					margin: 33px 0 15px;
+					display: flex;
+					gap: 20px;
+					align-items: center;
+
+					&-count {
+						border-radius: 8px;
+						border: 1px solid #11d198;
+						padding: 5px 10px;
+					}
+				}
+
+				&-descr1,
+				&-descr2 {
+					font-size: 18px; // Defolt font-size
+					margin-bottom: 15px;
+					text-align: start; // Chap tomonga joylashtirish
+				}
+
+				&-descr2 {
+					font-size: 24px;
+					font-weight: bold;
+					margin-bottom: 28px;
+				}
+
+				&-carsInfo {
+					padding: 15px 0;
+					display: flex;
+					align-items: center;
+					gap: 20px;
+				}
+
+				.serviceInfoPage-btn {
+					background-color: #fe363b;
+					font-size: 24px;
+					font-weight: 700;
+					margin-top: 27px;
+					color: white;
+					border-radius: 15px;
+					padding: 20px 40px;
+					margin-bottom: 30px;
+					border: none;
+					text-align: center;
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	// Media queries for responsive design
+
+	@media (min-width: 1180px) {
+		.servicePage-card-item {
+			gap: 50px; // 1180px dan keng ekranlar uchun bo‘shliqni kamaytirish
+		}
+	}
+
+	@media (max-width: 1150px) {
+		.servicePage-card-item {
+			justify-content: center; // Elementlarni yaxshiroq joylashtirish
+		}
+
+		.servicePage-card-item-info {
+			width: calc(50% - 20px); // 2ta element bo‘lishi uchun o‘rta kenglik
+		}
+	}
+
+	@media (max-width: 820px) {
+		.servicePage-card-item {
+			flex-direction: column;
+			align-items: stretch; // Karta kengligini to‘liq egallash
+			gap: 20px; // Vertikal bo‘shliq
+		}
+
+		.servicePage-card-item-info {
+			width: 100%; // Karta kengligi 100% bo‘ladi
+			margin: 0; // Marginni olib tashlash
+		}
+
+		.serviceInfoPage-btn {
+			width: 100%;
+			padding: 15px;
+			font-size: 18px;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.servicePage-card-item {
+			gap: 10px; // Elementlar orasidagi bo‘shliqni kamaytirish
+		}
+
+		.servicePage-card-item-info {
+			width: 100%; // Ekran kengligiga moslashtirish
+			margin: 0; // Marginni olib tashlash
+		}
+
+		.servicePage-card-item-infor {
+			padding: 5px 10px;
+		}
+
+		.serviceInfoPage-btn {
+			padding: 10px;
+			font-size: 16px;
+		}
+	}
+
+	@media (max-width: 400px) {
+		.servicePage-card-item-title {
+			font-size: 24px;
+			margin: 50px 0;
+		}
+
+		.servicePage-card-item-info {
+			width: 100%;
+			margin: 0 10px;
+		}
+
+		.servicePage-card-item-infor {
+			padding: 5px 10px;
+		}
+
+		.serviceInfoPage-btn {
+			padding: 10px;
+			font-size: 14px;
+		}
+	}
+}

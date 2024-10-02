@@ -1,0 +1,181 @@
+.servicePage {
+	background-color: #1e1f27;
+	color: white !important;
+	padding-bottom: 30px;
+
+.servicePageItem {
+    &-title {
+      font-size: 36px; // Kattaroq boshlang'ich matn o'lchami
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+  
+    &-card {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+  
+      &-elem {
+        max-width: 360px;
+        width: 100%;
+  
+        img {
+          width: 100%;
+          height: auto; // Aspect ratio saqlanadi
+        }
+  
+        h2 {
+          font-size: 28px; // Kattaroq boshlang'ich matn o'lchami
+          font-weight: 700;
+          margin: 25px 0;
+        }
+  
+        p {
+          font-size: 20px; // Kattaroq boshlang'ich matn o'lchami
+          margin-bottom: 40px;
+        }
+  
+        .linkBtn {
+          font-weight: bold;
+          font-size: 20px; // Kattaroq boshlang'ich matn o'lchami
+          svg{
+
+          }
+        }
+      }
+    }
+  }
+  
+  // Responsive Design
+  @media (max-width: 1200px) {
+    .servicePageItem {
+      &-title {
+        font-size: 32px;
+      }
+  
+      &-card {
+        gap: 15px;
+  
+        &-elem {
+          img {
+            max-width: 100%;
+          }
+  
+          h2 {
+            font-size: 24px;
+          }
+  
+          p {
+            font-size: 18px;
+          }
+  
+          .linkBtn {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .servicePageItem {
+        width: 100%;
+      &-title {
+        font-size: 28px;
+      }
+  
+      &-card {
+        gap: 10px;
+  
+        &-elem {
+          max-width: 50%;
+          flex-direction: row;
+  
+          img {
+             max-width: 100%;
+          }
+  
+          h2 {
+            font-size: 22px;
+          }
+  
+          p {
+            font-size: 16px;
+          }
+  
+          .linkBtn {
+            font-size: 16px;
+            svg{}
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .servicePageItem {
+      &-title {
+        font-size: 24px;
+      }
+  
+      &-card {
+        gap: 5px;
+  
+        &-elem {
+            max-width: 100%;
+          img {
+            max-width: 100%;
+          }
+  
+          h2 {
+            font-size: 20px;
+          }
+  
+          p {
+            font-size: 14px;
+          }
+  
+          .linkBtn {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .servicePageItem {
+      &-title {
+        font-size: 20px;
+      }
+  
+      &-card {
+        gap: 5px;
+  
+        &-elem {
+          img {
+            max-width: 100%;
+          }
+  
+          h2 {
+            font-size: 18px;
+          }
+  
+          p {
+            font-size: 16px; // Kattaroq qilib sozlandi
+            margin-bottom: 20px;
+          }
+  
+          .linkBtn {
+            font-size: 16px; // Kattaroq qilib sozlandi
+            svg{
+                font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,78 @@
+.brand{
+    background-color: #1e1f27;
+    padding: 50px 0;
+    .brands-content{
+        .brands-title{
+            color: #fff;
+            font-size: 30px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+        .swiper-slide{
+            background: none;
+            opacity: 1;
+            img{
+                border: none;
+            }
+        }
+        .brands-items{
+            .brands-item{
+                background: #111219;
+                border: 2px solid  #585858;
+                border-radius: 5px;
+                width: 170px;
+                height: 180px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 5px;
+                cursor: pointer;
+                img{
+                    width: 80px;
+                    height: 60px;
+                    object-fit: contain;
+                }
+                .brand-card-title{
+                    color: #7e7e7e;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                &:hover{
+                    background: linear-gradient(161.55deg, hsla(0, 0%, 100%, .294) -9.06%, #11121997 39.4%, #111219);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .brand{
+        .brands-content{
+            .brands-title{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .brand{
+        .brands-content{
+            .brands-title{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .brand{
+        .brands-content{
+            .brands-title{
+                font-size: 18px;
+            }
+        }
+    }
+}

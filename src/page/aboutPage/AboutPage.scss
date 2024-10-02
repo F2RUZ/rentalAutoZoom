@@ -1,0 +1,142 @@
+.about {
+  padding: 100px 0;
+  background-image: url(../../assets/AboutUsBgimages.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  &-links {
+    color: #cacaca;
+    font-size: 1rem;
+    font-weight: 900 !important;
+  }
+
+  &-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  &-text {
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  &-subtext {
+    color: #cacaca;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 2;
+  }
+
+  &-subtext span {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+
+  &-subtitle {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+
+  &-fourth-title {
+    color: whitesmoke;
+    font-size: 1.54rem;
+    font-weight: 800;
+  }
+}
+
+// Max width 1150px
+@media only screen and (max-width: 1150px) {
+  .about {
+    padding: 80px 0;
+
+    &-title {
+      font-size: 2.5rem;
+    }
+
+    &-text {
+      font-size: 1.8rem;
+    }
+
+    &-subtitle,
+    &-fourth-title {
+      font-size: 1.6rem;
+    }
+
+    &-subtext span {
+      font-size: 1.2rem;
+    }
+
+    &-content {
+      text-align: center;
+    }
+  }
+}
+
+// Max width 800px
+@media only screen and (max-width: 800px) {
+  .about {
+    padding: 60px 0;
+
+    &-title {
+      font-size: 2rem;
+    }
+
+    &-text {
+      font-size: 1.5rem;
+    }
+
+    &-subtitle,
+    &-fourth-title {
+      font-size: 1.4rem;
+    }
+
+    &-subtext span {
+      font-size: 1.1rem;
+    }
+
+    &-content {
+      text-align: center;
+    }
+  }
+}
+
+// Max width 400px
+@media only screen and (max-width: 400px) {
+  .about {
+    padding: 40px 0;
+    background-color: #2c2c34; /* 400px uchun fon rangi o'zgartirildi */
+    background-image: none; /* 400px ekranlarda fon rasmi olib tashlandi */
+
+    &-title {
+      font-size: 1.8rem;
+    }
+
+    &-text {
+      font-size: 1.3rem;
+    }
+
+    &-subtitle,
+    &-fourth-title {
+      font-size: 1.2rem;
+    }
+
+    &-subtext span {
+      font-size: 1rem;
+    }
+
+    &-content {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,160 @@
+// .accordionRotate {
+// 	transform: rotate(90deg);
+// 	transition: all 0.5s ease-out;
+
+// }
+
+// .accardion{
+//   margin-bottom: 20px;
+
+//     &-item{
+//         display: flex;
+//         align-items: start;
+//         margin-top: 20px;
+//         gap: 10px;
+//         button{
+//             background-color: transparent;
+//             outline: 0;
+//             border: 0;
+//         }
+//         .accordion-text{
+//             width: 900px;
+//             padding-bottom: 20px;
+//             border-bottom: 2px solid #fff3;
+//             h2{
+//                 font-size: 24px;
+//                 margin-left: 10px;
+//                 cursor: pointer;
+//             }
+//             .accordion-description{
+//                 max-height: 0;
+//                 max-width: 800px;
+//                 overflow-y: hidden;
+//                 p{
+//                     margin-left: 10px;
+//                     margin-top: 15px;
+//                     font-size: 18px;
+//                     background-color: #272933;
+//                     padding: 20px 10px;
+//                     transition: all 0.5s  ease-out;
+//                     overflow-y: hidden;
+//                 }
+//             }
+//             .active{
+//                 max-height: 300px;
+//                 transition: all 0.5s ease-out;
+//             }
+//         }
+
+//     }
+
+// }
+
+.accordionRotate {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease-out;
+}
+
+.accardion {
+    margin-bottom: 20px;
+
+    &-item {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 20px;
+        gap: 10px;
+
+        button {
+            background-color: transparent;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .accordion-text {
+            width: 100%;
+            max-width: 900px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+
+            h2 {
+                font-size: 24px;
+                margin-left: 10px;
+                cursor: pointer;
+                transition: color 0.3s ease;
+            }
+
+            .accordion-description {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.5s ease-out;
+
+                p {
+                    margin-left: 10px;
+                    margin-top: 15px;
+                    font-size: 18px;
+                    background-color: #272933;
+                    padding: 20px 10px;
+                    transition: font-size 0.3s ease, padding 0.3s ease;
+                }
+            }
+
+            .active {
+                max-height: 300px;
+            }
+        }
+    }
+}
+
+// Responsive Breakpoints
+@media (max-width: 1200px) {
+    .accordion-text {
+        h2 {
+            font-size: 22px;
+        }
+        .accordion-description p {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .accordion-text {
+        h2 {
+            font-size: 20px;
+        }
+        .accordion-description p {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .accardion {
+        &-item {
+            flex-direction: row;
+            gap: 10px; // Stack items vertically on small screens
+        }
+    }
+    .accordion-text {
+        h2 {
+            font-size: 18px !important;
+        }
+        .accordion-description p {
+            font-size: 14px !important;
+            padding: 15px 10px !important; // Adjust padding
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .accordion-text {
+        h2 {
+            font-size: 16px !important; // Smaller heading for very small screens
+        }
+        .accordion-description p {
+            font-size: 13px !important;
+            padding: 10px 5px !important; // Smaller padding for very small screens
+        }
+    }
+}

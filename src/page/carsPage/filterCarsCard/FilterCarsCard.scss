@@ -1,0 +1,92 @@
+.filter-cars-card{
+    background: linear-gradient(338deg, rgba(41, 41, 41, .266) 31%, hsla(200, 1%, 59%, .152));
+    border: 1.2px solid #ffffff2f;
+    border-radius: 10px;
+    height: 475px;
+    padding: 10px;
+    position: relative;
+    width: 290px;
+    &-top{
+        cursor: pointer;
+        .cars-picture{
+            height: 200px;
+            margin-bottom: 35px;
+            object-fit: contain;
+            object-position: center;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            overflow-y: hidden;
+            .skeleton-image{
+                width: 265px;
+                height: 200px;
+                object-fit: cover;
+                display: flex;
+                justify-content: center; 
+                align-items: center;
+            }
+            img{
+                border-radius: 20px;
+                height: 100%;
+                object-fit: contain;
+                object-position: center;
+                width: 265px;
+            }
+        }
+        .filter-cars-card-title{
+            margin-top: 10px;
+            border-bottom: 1.3px solid #ffffff63;
+            color: #fff;
+            font-size: 19px;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            padding: 7px;
+        }
+        .filter-cars-card-aed{
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            .filter-cars-card-usd{
+                color: #9e9a9a;
+                font-size: 18px;
+                font-weight: 300;
+            }
+        }
+        .renta-type{
+            color: #b3b2b2;
+            font-size: 14px;
+        }
+        
+    }
+    &-bottom{
+        align-items: center;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        left: 0;
+        padding: 8px;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        button{
+            align-items: center;
+            border-radius: 10px;
+            color: #fff;
+            display: flex;
+            font-size: 18px;
+            gap: 10px;
+            margin-top: 70px;
+            padding: 15px 7px;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+        }
+        .btn-w{
+            background-color: #00c600;
+        }
+        .btn-t{
+            background-color: #2727e0;
+        }
+    }
+}

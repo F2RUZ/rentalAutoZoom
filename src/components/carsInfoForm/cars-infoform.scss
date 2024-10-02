@@ -1,0 +1,59 @@
+.cars-form {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid whitesmoke;
+  gap: 20px;
+  padding: 50px;
+
+  &-input {
+    border: 1px solid whitesmoke;
+    background-color: #485460;
+    height: 65px;
+    padding: 0 10px;
+    color: white !important;
+    font-size: 1.2rem;
+  }
+  
+  &-button {
+    width: 100px !important;
+    height: 50px;   
+    border: 1px solid white;
+    background-color: #eb2f06;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  // Responsiv dizayn
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 30px;
+
+    &-input {
+      height: 55px;
+      font-size: 1rem;
+    }
+
+    &-button {
+      width: 90px !important;
+      height: 45px;
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    width: 100%;
+    padding: 20px;
+
+    &-input {
+      height: 50px;
+      font-size: 0.9rem;
+    }
+
+    &-button {
+      width: 80px !important;
+      height: 40px;
+      font-size: 0.9rem;
+    }
+  }
+}

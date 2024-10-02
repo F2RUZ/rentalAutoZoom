@@ -1,0 +1,50 @@
+.suv{
+    padding: 50px 0;
+    background-color: #272933;
+}
+
+@media only screen and (max-width: 1050px) {
+    .suv{
+      .budget-title{
+        font-size: 25px;
+      }
+      .budget-link{
+        font-size: 15px;
+      }
+      .budget-bottom{
+        margin-top: 0;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 750px) {
+    .suv{
+      .budget-title{
+        font-size: 20px;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 588px) {
+    .suv{
+      .budget-link{
+        font-size: 11px;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .suv{
+      .budget-title{
+        font-size: 18px;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .suv{
+      .budget-title{
+        font-size: 16px;
+      }
+    }
+  }

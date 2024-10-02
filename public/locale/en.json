@@ -1,0 +1,110 @@
+{
+  "header": {
+    "input": "Search",
+    "cars": "Cars",
+    "brand": "Brand",
+    "services": "Services",
+    "about": "About Us",
+    "contacts": "Contacts",
+    "blog": "Blog"
+  },
+  "hero": {
+    "hero-title": "TOP LUXURY CAR RENTAL DUBAI",
+    "hero-description": "Best sports car & supercar rental Dubai, Exclusive offers on luxury car rental Dubai Cheap price",
+    "hero-link": "RENT A CAR DUBAI CATALOG"
+  },
+  "brand": "BRANDS",
+  "see-all": "SEE ALL",
+  "budget": "BUDGET CARS RENTAL DUBAI",
+  "sport": "SPORTS CARS RENTAL DUBAI",
+  "luxury": "LUXURY CARS RENTAL DUBAI",
+  "muscle": "MUSCLE RENTAL DUBAI",
+  "convertible": "CONVERTIBLE CARS RENTAL DUBAI",
+  "suv": "SUV RENTAL DUBAI",
+  "american": "AMERICAN BRANDS RENTAL DUBAI",
+  "service": {
+    "title": "Services",
+    "learn-more": "Learn more",
+    "info-title": "Sports Car Rental Dubai Style Tour in Dubai"
+  },
+  "luxury-section": {
+    "title-1": "LUXURY CAR RENTAL IN DUBAI",
+    "des-1": "Are you ready to feel the adrenaline rush and unleash your inner speed demon? Look no further than Auto Zoom luxury car rental Dubai, the city where dreams become reality. In this ultimate guide to sports car rental Dubai, we will take you on a thrilling journey through the world of luxury and supercar rental Dubai. Imagine cruising down the iconic Sheikh Zayed Road in a sleek and powerful sports car rental Dubai style, turning heads and leaving everyone in awe of your style. Whether you are a car enthusiast or simply looking to",
+    "title-2": "What are the requirements to rent a luxury car in Dubai?",
+    "des-2": "To rent a car Dubai, its enough to have a valid driving license and enough funds. & youll need to show your foreign passport and prove that you have come of age and have driving experience.The age limit and the requirements for the license depend on where youre from. Visitors from Europe, the UK, the US and the Middle East can drive with their national licenses. People from other parts of the world need an international license. The age limit for the driver might vary from 21 to 25 years. Please get in touch with us before placing an order to discuss your individual situation.Cars in the UAE have steering wheels on the left side. Drivers stick to the right side of the road.If needed, you can add a second driver to your rental contract. The requirements for this person will be the same as for the first driver. If you let someone who isnt mentioned in your rental contract take a place behind the wheel, you can get a fine.The duration of a premium car rental in Dubai can vary from one day to several weeks. Discounts are common for luxury car rental Dubai monthly car rental plan. Use this chance to have fun, increase your high social status and please your dearest and nearest!Please avoid smoking inside the rented vehicle."
+  },
+  "youtube": {
+    "title": "SPORTS CAR RENTAL DUBAI",
+    "des": "Auto Zoom L L C a Car is a Top Luxury Car Rental Dubai based company, We offer sports car rental, and supercar rental in Dubai. The best luxury car rental process provided by our fleet . We own a diverse range of luxury supercar rental and sports car rental Dubai style , including Rolls Royce, Lamborghini, Maserati, Ferrari, Mercedes Benz, Porsche, and Range Rover, to name a few. Rent a car with the best car rental company in Dubai.",
+    "all-cars": "All Cars",
+    "title-2": "SUPERCAR RENTAL DUBAI",
+    "des-2": "Hire the latest supercar",
+    "see-all": "SEE ALL"
+  },
+  "instagram": "FOLLOW US ON INSTAGRAM",
+  "location": "ЛОКАЦИЯ",
+  "city": "ГОРОД",
+  "about": {
+    "about-title": "ABOUT US",
+    "text": "Welcome to TurboRent Car Rental Co LLC – Your Partner in Unforgettable Journeys in Dubai!",
+    "sub-text": "In a world where every trip is an adventure, TurboRent Car Rental Co LLC offers you a unique car rental experience in the heart of Dubai.",
+    "subtitle": "Why TurboRent?",
+    "about-text-1": "Elegant Car Fleet:",
+    "about-span-1": " We provide you the opportunity to choose from our luxurious car fleet – from sleek sedans to powerful SUVs. We have a vehicle to match your style and meet your needs.",
+    "about-text-2": "Worry-Free Rental:",
+    "about-span-2": " Our goal is to make your journey as comfortable as possible. Flexible rental terms, the option to hire with a driver, and a wide range of additional services – all for your convenience.",
+    "about-text-3": "Transparency and Trust:",
+    "about-span-3": " We value every customer, so our prices are honest and transparent. No hidden fees, no unexpected surprises. Trust us, and we will make your rental experience straightforward and clear.",
+    "about-text-4": "Service at Your Level:",
+    "about-span-4": " Our friendly and professional team is ready to bring your ideas to life. We aim not just to provide a car but to create a genuine automotive experience for you.",
+    "title-1": "Our Mission:",
+    "title-2": "Contact Us:",
+    "sub-text-2": "TurboRent Car Rental Co LLC is created with one goal – to make every journey unforgettable. We strive to offer you not just a car but the key to new experiences and adventures.",
+    "sub-text-3": "Trust the professionals – trust TurboRent Car Rental Co LLC. Get in touch with us today to start your exciting journey through Dubai in our stylish and reliable cars. Allow yourself to savor every moment of your trip."
+  },
+  "contact": {
+    "link": "Luxury Cars for Rent in Dubai / Contacts",
+    "title": "HAVE ANY QUESTIONS?",
+    "text-1": "We would love to help",
+    "text-2": "TurboRent Car Rental Dubai, is the best luxury car rental Dubai based company.",
+    "title-1": "Head office"
+  },
+  "footer": {
+    "title": "LUXURY CAR RENTAL IN DUBAI",
+    "des": "Rent sports and luxury cars directly without intermediaries. Rent a car in Dubai with Turbo Car Rental - safety and driving pleasure",
+    "button": "GET BEST OFFER",
+    "bottom-left": "United Arab Emirates.",
+    "bottom-right": "Terms and Conditions",
+    "follow": "Follow Us",
+    "faq": "FAQ",
+    "work": "Working hours: 24/7"
+  },
+
+  "cars-info": {
+    "title": "Mitsubishi",
+    "Mirage": "Mirage",
+    "white": "white",
+    "per_day": "per day",
+    "deposit": "Deposit",
+    "premium_protection": "Premium protection",
+    "year": "Year",
+    "AED 0 for credit cards payment": "AED 0 for credit cards payment",
+    "seconds": "Seconds",
+    "max_speed": "Max speed",
+    "max_people": "Max people",
+    "color": "Color",
+    "motor": "Motor",
+    "transmission": "Transmission",
+    "drive_side": "Drive side",
+    "petrol": "Petrol",
+    "category": "Category",
+    "whatsapp": "Contact via WhatsApp",
+    "telegram": "Contact via Telegram",
+    "phone": "Contact via Phone",
+    "good_to_know": "Good to know",
+    "km_limit": "Kilometrage limit per day",
+    "extra_km": "Every extra km will be charged 20 AED/km",
+    "deposit_refund": "The deposit is refunded within 28 days",
+    "car_rental_deposit_amount": "Car rental deposit amount"
+  }
+}
